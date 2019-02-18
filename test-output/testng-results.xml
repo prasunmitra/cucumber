@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="46745" started-at="2019-02-06T07:35:10Z" finished-at="2019-02-06T07:35:57Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="46745" started-at="2019-02-06T07:35:10Z" finished-at="2019-02-06T07:35:57Z">
+      <class name="com.cucumber.testRunner.TestRunner">
+        <test-method status="PASS" signature="setupClass()[pri:0, instance:com.cucumber.testRunner.TestRunner@57fffcd7]" name="setupClass" is-config="true" duration-ms="461" started-at="2019-02-06T07:35:10Z" finished-at="2019-02-06T07:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.cucumber.testRunner.TestRunner@57fffcd7]" name="feature" duration-ms="43932" started-at="2019-02-06T07:35:11Z" data-provider="features1" finished-at="2019-02-06T07:35:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Google Search validation]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.cucumber.testRunner.TestRunner@57fffcd7]" name="tearDownClass" is-config="true" duration-ms="2155" started-at="2019-02-06T07:35:55Z" finished-at="2019-02-06T07:35:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.cucumber.testRunner.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
